@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2px;
+
+  padding: 40px 0px 48px 60px;
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  height: 96px;
+  width: 900px;
+  margin-left: 60px;
+  text-transform: uppercase;
+}
+.header span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+body {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* hero */
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 280px;
+}
+.texts {
+  width: 580px;
+}
+.texts h3 {
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #d0d6f9;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.texts h1 {
+  font-size: 8.5rem;
+  font-family: "Bellefair", sans-serif;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+.texts p {
+  font-size: 1.1rem;
+  font-family: "Barlow", sans-serif;
+  color: #d0d6f9;
+  margin-top: 48px;
+  line-height: 180%;
+}
+.explore-btn {
+  background-color: #fff;
+  border: none;
+  width: 272px;
+  height: 272px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 50px;
+
+  font-size: 1.5rem;
+  font-family: "Bellefair", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 688px;
+  }
+}
