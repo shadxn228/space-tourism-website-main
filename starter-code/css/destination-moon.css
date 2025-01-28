@@ -74,49 +74,82 @@ body {
   background-size: cover;
 }
 
-/* hero */
-.hero .container {
+/* destination-A */
+
+.destination-A .content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
 }
-.hero {
-  padding-top: 235px;
-}
-.texts {
-  width: 580px;
-}
-.texts h3 {
-  font-size: 1.5rem;
+.page-title {
+  padding-bottom: 120px;
+
   font-family: "Barlow Condensed", sans-serif;
-  color: #d0d6f9;
-  letter-spacing: 4px;
+  font-size: 2rem;
   text-transform: uppercase;
+  line-height: 33.6%;
+  letter-spacing: 4px;
 }
-.texts h1 {
-  font-size: 8.5rem;
+.moon-img {
+  width: 490px;
+  height: 490px;
+}
+.moon-explanation {
+  width: 539px;
+}
+.destination-tab ul {
+  display: flex;
+  gap: 30px;
+
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.3rem;
+  line-height: 19.2%;
+  letter-spacing: 2px;
+}
+.destination-tab a {
+  color: #d0d6f9;
+}
+.text h1 {
+  font-size: 6.5rem;
   font-family: "Bellefair", sans-serif;
   text-transform: uppercase;
-  margin-top: 35px;
+  line-height: 114.6%;
+  margin: 50px 0 30px 0;
 }
-.texts p {
-  font-size: 1.1rem;
+.text p {
+  font-size: 1.2rem;
   font-family: "Barlow", sans-serif;
   color: #d0d6f9;
-  margin-top: 48px;
   line-height: 180%;
 }
-.explore-btn {
-  background-color: #fff;
-  border: none;
-  width: 272px;
-  height: 272px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-top: 50px;
-
-  font-size: 1.5rem;
-  font-family: "Bellefair", sans-serif;
+hr {
+  color: #fff;
+  opacity: 25%;
+  margin: 40px 0;
+}
+.statistics {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.distance-title,
+.travel-title {
+  font-size: 1rem;
+  font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  line-height: 16.8%;
+  letter-spacing: 2px;
+  color: #d0d6f9;
+  margin-bottom: 30px;
+}
+.distance-info {
+  padding-right: 100px;
+}
+.distance-value,
+.travel-value {
+  font-size: 2rem;
+  font-family: "Bellefair", sans-serif;
+  line-height: 32.1%;
+  text-transform: uppercase;
 }
